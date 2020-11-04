@@ -1,0 +1,71 @@
+.sortingVisualizer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: #27262d;
+    
+}
+
+.array-container {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 75%;
+  margin: 25px;
+  border: 2px solid gray;
+  padding: 30px;
+  box-shadow: 0px 0px 1px #27b9c2;
+}
+
+.sortingVisualizer__controller{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  justify-content: center;
+  height: 100vh;
+  background-color: #353937;
+  align-items: center;
+}
+
+.array-bar {
+  background-color: rgb(113 197 206);
+  width: 2px;
+  margin: 0 0.5px;
+  display: inline-block;
+
+}
+
+.sortingVisualizer button {
+    margin: 5px;
+}
+
+.barGenerateButton {
+  cursor: pointer;
+  height: 33px;
+  background: #11e2f0;
+  border: 1px solid #c9c924;
+  border-radius: 1px;
+  width: 80%;
+  transition: .5s;
+}
+.barGenerateButton:hover {
+  background-color: #aa0cc3;
+  color: white;
+}
+
+.mainButton {
+  cursor: pointer;
+  height: 28px;
+  background: #3280d9;
+  border: none;
+  color: white;
+  width: 80%;
+}
+
+.mainButton:hover {
+  background-color: #aa0cc3;
+  color: white;
+}
