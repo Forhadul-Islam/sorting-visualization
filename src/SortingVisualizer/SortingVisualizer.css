@@ -69,3 +69,21 @@
   background-color: #aa0cc3;
   color: white;
 }
+
+.color-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid white;
+  width: 75%;
+  color: white;
+}
+.colorOption {
+  height: 17px;
+  width: 25px;
+  margin: 2px;
+  cursor: pointer;
+  border: 1px solid;
+  
+}
